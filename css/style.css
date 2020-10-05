@@ -1,0 +1,377 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #F6FFFC; 
+  font-family: 'Lora', serif;
+}
+a{
+  text-decoration: none;
+}
+.resaltado2{
+  color: #3b7f10;
+  
+}
+.resaltado3{
+  color: #8c0000;
+  font-weight: bold;
+  
+}
+
+.container{
+  width: 1170px;
+  height: auto;
+  margin: 0px auto;
+  max-width: 100%;
+  padding: 0px 15px;
+  position: relative;
+}
+.text-center{
+  text-align: center;
+}
+ .wrapper{
+  width: 100%;
+  position: relative;
+  float: left
+} 
+ .section{
+  width: 100%;
+  margin: 100px 0;
+  padding: 15px;
+  position: relative;
+  float: left;
+} 
+.bg-blue{
+background-color: rgb(28, 181, 232);
+}
+.bg-gray{
+  background-color: #686868;
+}
+.bg-nuevo{
+  background-color: #ffffff;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+ .btn_1{
+  color: black;
+  background-color: #00BFFF;
+  padding: 10px 5px;
+  border: none;
+  vertical-align: middle;
+  display: inline-block;
+  
+
+}
+.btn_1:hover{
+  background-color: #2696FF;
+} 
+
+.navbar{
+  background-color: rgb(28, 181, 232);
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.navbar-fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.navbar-brand{
+  position: relative;
+  float: left;
+  padding: 8px 16px;
+  margin: 0px 17px;
+}
+.navbar-brand a{
+  display: inline-block;
+}
+.navbar-brand a img{
+  width:120px;
+}
+.navbar-menu{
+  position: relative;
+  float: left;
+  margin-top:16px;
+}
+  .navbar-menu li{
+    float: left;
+    list-style: none;
+  }
+  .navbar-menu li a{
+    display: block;
+    padding: 12px 16px;
+    text-transform: capitalize; 
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+  }
+  .navbar-menu li a:hover{
+    background-color: #2696FF;
+   
+  }
+.navbar-languaje{
+  position: absolute;
+  left: 183px;
+  top: 29px;
+}
+.navbar-redes{
+  position: absolute;
+  right: -9px;
+  top: 15px;
+  
+}
+  .navbar-redes a{
+  color: black;
+  margin-right: 4px;
+  }
+  .navbar-redes a i:hover{
+    color: #2696FF;
+  }
+          /*header */
+.bg-header-home{
+  background: url('../img/header.jpeg') no-repeat center center  ;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.header-title{
+  position: absolute;
+  top:42%;
+  width: 80%;
+  margin: 0 10%;
+  padding: 50px 80px;
+  font-size: 90px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(28, 181, 232,.35);
+  z-index: 1;
+}
+.form-header{
+  position: absolute;
+  width: 60%;
+  height: 20%;
+  margin: 0 20%;
+  bottom: -71px;
+  border: solid 2px #2696FF;
+  background-color: #fff;
+  padding: 25px 15px;
+  z-index: 3;
+}
+    .form-h-input ,
+    .form-h-select{
+    padding: 12px;
+    border: 1px solid #4651FF;
+    border-radius: 3px;
+    color: black;
+  } 
+.nombre{
+  position: absolute;
+  left: 76px;
+  bottom: 72px;
+}
+.checkin{
+  position: absolute;
+  left: 308px;
+  bottom: 72px;
+}
+.checkout{
+  position: absolute;
+  left: 506px;;
+  bottom: 72px;
+}
+.hab{
+  position: absolute;
+  left:721px;
+  bottom: 72px;
+}
+.btn{
+  position: absolute;
+  left: 932px;
+  bottom: 66px;
+}
+.btn-form{
+  padding:20px;
+}
+  /* habitaciones */
+.section-habitaciones article,
+.section-promociones article,
+.section-servicios article{
+  width: 33%;
+  position: relative;
+  float: left;
+  padding: 0 15px;
+  margin-bottom:30px;
+}
+.section-habitaciones img,
+.section-promociones img{
+  width: 100%;
+}
+  .section-heading{
+  width: 60%;
+  margin: 30px 0; 
+  text-align: center;
+  font-size: 45px;
+  background-color: #2696FF;
+  border-left: solid 5px #263AFF; 
+}   
+.iconos-promo img{
+  width: 30%;
+  display: inline-block;
+}
+
+.divider {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  float: left;
+  padding: 150px 0px;
+}
+.bg-divider {
+  background: url('../img/separacion1.jpg') no-repeat center center fixed;
+  background-size: auto;
+  background-size: cover;
+  opacity: .8;
+}
+.bg-divider2 {
+  background: url('../img/separacion2.jpg') no-repeat center center fixed;
+  background-size: auto;
+  background-size: cover;
+  opacity: .8;
+  height: 100vh;
+  
+}
+.aside-left {
+  position:relative;
+  float:left;
+  width: 25%;
+}
+.box {
+  padding:25px;
+}
+.box-gray {
+  background-color:#ecf0f1;
+  margin-bottom: 50px;
+}
+.aside-right {
+  position:relative;
+  float:right;
+  width: 74%;
+}
+ .form-aside input,
+ .form-aside select,
+ .form-aside textarea{
+  padding: 12px;
+  border: solid 1px  rgb(28, 181, 232);
+  border-radius: 3px;
+  color: black;
+  width: 100%;
+  margin: 15px 0;
+}  
+.box-form {
+  width: 100%;
+  float: left; 
+  padding:0 15px;
+  
+  
+}
+.contacto{
+  font-weight: bold;
+}
+.link-c{
+  color: #071b8b;
+}
+
+.mapa iframe {
+  width:100%;
+  height:75vh;
+  
+}
+.footer {
+  width:100%;  
+  position:relative;
+  float:left;
+  clear:both;
+  
+}
+.footer-txt{
+  padding: 15px;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width:768px){
+  .navbar-brand{
+    float: none;
+    text-align: center;
+  }
+  .navbar-redes {
+    position: absolute;
+    right: 49px;
+    top: 15px;
+}
+  .navbar-menu li a {
+  padding: 12px 12px;
+}
+.section-habitaciones article,
+.section-promociones article,
+.section-servicios article{
+width: 100%;
+}
+.aside-left,
+.aside-right {
+  width: 100%;
+}
+.aside-right{
+  margin-top: 15px;
+}
+.nombre {
+  left: 26px;
+  bottom: 120px;
+}
+.nombre-r{
+  width: 86%;
+}
+.checkin {
+  left: 26px;
+  bottom: 62px;
+}
+.checkout {
+  left: 242px;
+  bottom: 62px;
+}
+.hab {
+  left: 26px;
+  bottom: 10px;
+}
+.btn {
+  left: 188px;
+  bottom: 1px;
+  width: 50%;
+}
+
+.header-title {
+  top: 42%;
+  width: 85%;
+  margin: 0px 6%;
+  font-size: 69px;
+  }
+  .footer{
+  margin-top: 500px;
+  }
+
+}
+
